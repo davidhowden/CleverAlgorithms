@@ -172,7 +172,7 @@ The pseudo code is based on a the version of the Reactive Tabu Search described 
 	\TabuCandidateList $\leftarrow$ \CandidateList $-$ \AdmissibleCandidateList\;
 	% modify
 	\If{\Size{\AdmissibleCandidateList} $<$ 2} {
-		\ProhibitionPeriod $\leftarrow$ $\ProblemSize - 2$\;
+		\ProhibitionPeriod $\leftarrow$ \ProblemSize $-$ 2\;
 		\ProhibitionPeriodTime $\leftarrow$ \CurrentIteration\;
 	}
 	% aspiration
